@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class RecipesApplicationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class RecipesApplicationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; RecipesApplicationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">14.511s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">start</td>
+<td class="success">14.511s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>?[1;31m
+Start test 1?[0m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2022-08-10 14:56:22.100  INFO 34008 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.4 on PC with PID 34008 (started by Rayvo in C:\Users\Rayvo\IdeaProjects\CinemaRoomRESTService\Recipes\Recipes\task)
+2022-08-10 14:56:22.104  INFO 34008 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+2022-08-10 14:56:23.408  INFO 34008 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-10 14:56:23.505  INFO 34008 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 4 JPA repository interfaces.
+2022-08-10 14:56:24.296  INFO 34008 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8881 (http)
+2022-08-10 14:56:24.311  INFO 34008 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 14:56:24.311  INFO 34008 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-08-10 14:56:24.467  INFO 34008 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 14:56:24.467  INFO 34008 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2291 ms
+2022-08-10 14:56:24.902  INFO 34008 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-10 14:56:24.977  INFO 34008 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-08-10 14:56:25.206  INFO 34008 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-10 14:56:25.361  INFO 34008 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-10 14:56:25.860  INFO 34008 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-10 14:56:25.891  INFO 34008 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-10 14:56:26.210  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [DirectionIdGenerator.sequence_name] suggested; using default [recipe_direction]
+2022-08-10 14:56:26.231  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [IngredientIdGenerator.sequence_name] suggested; using default [recipe_ingredient]
+2022-08-10 14:56:26.231  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [RecipeIdGenerator.sequence_name] suggested; using default [recipe]
+2022-08-10 14:56:26.233  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [UserIdGenerator.sequence_name] suggested; using default [user]
+Hibernate: create table direction_id_generator (sequence_name varchar(255) not null, next_val bigint, primary key (sequence_name)) engine=InnoDB
+Hibernate: insert into direction_id_generator(sequence_name, next_val) values ('recipe_direction',0)
+Hibernate: create table ingredient_id_generator (sequence_name varchar(255) not null, next_val bigint, primary key (sequence_name)) engine=InnoDB
+Hibernate: insert into ingredient_id_generator(sequence_name, next_val) values ('recipe_ingredient',0)
+Hibernate: create table recipe (recipe_id integer not null, category varchar(255), date varchar(255), description varchar(255), recipe_name varchar(255), user_id integer, primary key (recipe_id)) engine=InnoDB
+Hibernate: create table recipe_direction (direction_id integer not null, recipe_id integer not null, direction varchar(255), primary key (direction_id, recipe_id)) engine=InnoDB
+Hibernate: create table recipe_id_generator (sequence_name varchar(255) not null, next_val bigint, primary key (sequence_name)) engine=InnoDB
+Hibernate: insert into recipe_id_generator(sequence_name, next_val) values ('recipe',0)
+Hibernate: create table recipe_ingredient (ingredient_id integer not null, recipe_id integer not null, ingredient varchar(255), primary key (ingredient_id, recipe_id)) engine=InnoDB
+Hibernate: create table user (user_id integer not null, email varchar(255), password varchar(255), role varchar(255), primary key (user_id)) engine=InnoDB
+Hibernate: create table user_id_generator (sequence_name varchar(255) not null, next_val bigint, primary key (sequence_name)) engine=InnoDB
+Hibernate: insert into user_id_generator(sequence_name, next_val) values ('user',0)
+Hibernate: create table user_recipe_mapping (recipe_id integer not null, user_id integer not null, primary key (recipe_id, user_id)) engine=InnoDB
+2022-08-10 14:56:27.204  INFO 34008 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-10 14:56:27.230  INFO 34008 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-10 14:56:28.122  WARN 34008 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-10 14:56:28.799  INFO 34008 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-10 14:56:28.851  INFO 34008 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8881 (http) with context path ''
+2022-08-10 14:56:28.869  INFO 34008 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 7.222 seconds (JVM running for 8.141)
+2022-08-10 14:56:29.167  INFO 34008 --- [nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 14:56:29.173  INFO 34008 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 14:56:29.176  INFO 34008 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select tbl.next_val from user_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update user_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: select tbl.next_val from user_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update user_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: insert into user (email, password, role, user_id) values (?, ?, ?, ?)
+?[1;31m
+Start test 2?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 3?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into user (email, password, role, user_id) values (?, ?, ?, ?)
+?[1;31m
+Start test 4?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into user (email, password, role, user_id) values (?, ?, ?, ?)
+?[1;31m
+Start test 5?[0m
+?[1;31m
+Start test 6?[0m
+?[1;31m
+Start test 7?[0m
+?[1;31m
+Start test 8?[0m
+?[1;31m
+Start test 9?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select tbl.next_val from recipe_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update recipe_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: select tbl.next_val from recipe_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update recipe_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: select tbl.next_val from ingredient_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update ingredient_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: select tbl.next_val from ingredient_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update ingredient_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: select tbl.next_val from direction_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update direction_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: select tbl.next_val from direction_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update direction_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 10?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 11?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_, recipeingr0_.recipe_id as recipe_i2_2_, recipeingr0_.ingredient as ingredie3_2_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction_id as directio1_1_, recipedire0_.recipe_id as recipe_i2_1_, recipedire0_.direction as directio3_1_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 12?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_, recipeingr0_.recipe_id as recipe_i2_2_, recipeingr0_.ingredient as ingredie3_2_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction_id as directio1_1_, recipedire0_.recipe_id as recipe_i2_1_, recipedire0_.direction as directio3_1_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 13?[0m
+2022-08-10 14:56:30.677  INFO 34008 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-10 14:56:30.685  INFO 34008 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-10 14:56:30.704  INFO 34008 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2022-08-10 14:56:30.815  INFO 34008 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.4 on PC with PID 34008 (started by Rayvo in C:\Users\Rayvo\IdeaProjects\CinemaRoomRESTService\Recipes\Recipes\task)
+2022-08-10 14:56:30.815  INFO 34008 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+2022-08-10 14:56:31.248  INFO 34008 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-10 14:56:31.273  INFO 34008 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2022-08-10 14:56:31.409  INFO 34008 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8881 (http)
+2022-08-10 14:56:31.411  INFO 34008 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 14:56:31.411  INFO 34008 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-08-10 14:56:31.452  INFO 34008 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 14:56:31.452  INFO 34008 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 630 ms
+2022-08-10 14:56:31.551  INFO 34008 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-10 14:56:31.563  INFO 34008 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-08-10 14:56:31.583  INFO 34008 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-08-10 14:56:31.584  INFO 34008 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-10 14:56:31.603  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [DirectionIdGenerator.sequence_name] suggested; using default [recipe_direction]
+2022-08-10 14:56:31.604  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [IngredientIdGenerator.sequence_name] suggested; using default [recipe_ingredient]
+2022-08-10 14:56:31.604  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [RecipeIdGenerator.sequence_name] suggested; using default [recipe]
+2022-08-10 14:56:31.604  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [UserIdGenerator.sequence_name] suggested; using default [user]
+2022-08-10 14:56:31.687  INFO 34008 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-10 14:56:31.687  INFO 34008 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-10 14:56:31.919  WARN 34008 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-10 14:56:32.121  INFO 34008 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-10 14:56:32.141  INFO 34008 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8881 (http) with context path ''
+2022-08-10 14:56:32.149  INFO 34008 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 1.402 seconds (JVM running for 11.421)
+?[1;31m
+Start test 14?[0m
+2022-08-10 14:56:32.158  INFO 34008 --- [nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 14:56:32.160  INFO 34008 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 14:56:32.161  INFO 34008 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_, recipeingr0_.recipe_id as recipe_i2_2_, recipeingr0_.ingredient as ingredie3_2_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction_id as directio1_1_, recipedire0_.recipe_id as recipe_i2_1_, recipedire0_.direction as directio3_1_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 15?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_, recipeingr0_.recipe_id as recipe_i2_2_, recipeingr0_.ingredient as ingredie3_2_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction_id as directio1_1_, recipedire0_.recipe_id as recipe_i2_1_, recipedire0_.direction as directio3_1_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 16?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_, recipeingr0_.recipe_id as recipe_i2_2_, recipeingr0_.ingredient as ingredie3_2_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: update recipe set category=?, date=?, description=?, recipe_name=?, user_id=? where recipe_id=?
+Hibernate: delete from recipe_ingredient where ingredient_id=? and recipe_id=?
+Hibernate: delete from recipe_ingredient where ingredient_id=? and recipe_id=?
+Hibernate: delete from recipe_ingredient where ingredient_id=? and recipe_id=?
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: select tbl.next_val from ingredient_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update ingredient_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_, recipedire0_.recipe_id as recipe_i2_1_, recipedire0_.direction as directio3_1_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: delete from recipe_direction where direction_id=? and recipe_id=?
+Hibernate: delete from recipe_direction where direction_id=? and recipe_id=?
+Hibernate: delete from recipe_direction where direction_id=? and recipe_id=?
+Hibernate: delete from recipe_direction where direction_id=? and recipe_id=?
+Hibernate: delete from recipe_direction where direction_id=? and recipe_id=?
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: select tbl.next_val from direction_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update direction_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_, recipeingr0_.recipe_id as recipe_i2_2_, recipeingr0_.ingredient as ingredie3_2_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction_id as directio1_1_, recipedire0_.recipe_id as recipe_i2_1_, recipedire0_.direction as directio3_1_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+?[1;31m
+Start test 17?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_, recipeingr0_.recipe_id as recipe_i2_2_, recipeingr0_.ingredient as ingredie3_2_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction_id as directio1_1_, recipedire0_.recipe_id as recipe_i2_1_, recipedire0_.direction as directio3_1_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 18?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+Hibernate: delete from recipe where recipe_id=?
+?[1;31m
+Start test 19?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 20?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_, recipeingr0_.recipe_id as recipe_i2_2_, recipeingr0_.ingredient as ingredie3_2_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction_id as directio1_1_, recipedire0_.recipe_id as recipe_i2_1_, recipedire0_.direction as directio3_1_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 21?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 22?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select tbl.next_val from recipe_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update recipe_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 23?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 24?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 25?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 26?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 27?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 28?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 29?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 30?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 31?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 32?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 33?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 34?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 35?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.recipe_name as recipe_n5_0_, recipe0_.user_id as user_id6_0_ from recipe recipe0_ where recipe0_.category=? order by recipe0_.date
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+?[1;31m
+Start test 36?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.recipe_name as recipe_n5_0_, recipe0_.user_id as user_id6_0_ from recipe recipe0_ where recipe0_.recipe_name like ? order by recipe0_.date
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+?[1;31m
+Start test 37?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.recipe_name as recipe_n5_0_, recipe0_.user_id as user_id6_0_ from recipe recipe0_ where recipe0_.category=? order by recipe0_.date
+?[1;31m
+Start test 38?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.recipe_name as recipe_n5_0_, recipe0_.user_id as user_id6_0_ from recipe recipe0_ where recipe0_.recipe_name like ? order by recipe0_.date
+?[1;31m
+Start test 39?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 40?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 41?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 42?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 43?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 44?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 45?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 46?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 47?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 48?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 49?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 50?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 51?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 52?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 53?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 54?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 55?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 56?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 57?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 58?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 59?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 60?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 61?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 62?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 63?[0m
+2022-08-10 14:56:34.358  INFO 34008 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-10 14:56:34.360  INFO 34008 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-08-10 14:56:34.369  INFO 34008 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2022-08-10 14:56:34.489  INFO 34008 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.4 on PC with PID 34008 (started by Rayvo in C:\Users\Rayvo\IdeaProjects\CinemaRoomRESTService\Recipes\Recipes\task)
+2022-08-10 14:56:34.490  INFO 34008 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+2022-08-10 14:56:34.805  INFO 34008 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-10 14:56:34.823  INFO 34008 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2022-08-10 14:56:34.916  INFO 34008 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8881 (http)
+2022-08-10 14:56:34.918  INFO 34008 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 14:56:34.918  INFO 34008 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-08-10 14:56:34.956  INFO 34008 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 14:56:34.956  INFO 34008 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 463 ms
+2022-08-10 14:56:35.050  INFO 34008 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-10 14:56:35.057  INFO 34008 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-08-10 14:56:35.076  INFO 34008 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-08-10 14:56:35.076  INFO 34008 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-10 14:56:35.088  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [DirectionIdGenerator.sequence_name] suggested; using default [recipe_direction]
+2022-08-10 14:56:35.089  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [IngredientIdGenerator.sequence_name] suggested; using default [recipe_ingredient]
+2022-08-10 14:56:35.089  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [RecipeIdGenerator.sequence_name] suggested; using default [recipe]
+2022-08-10 14:56:35.089  INFO 34008 --- [    Test worker] o.hibernate.id.enhanced.TableGenerator   : HHH000398: Explicit segment value for id generator [UserIdGenerator.sequence_name] suggested; using default [user]
+2022-08-10 14:56:35.148  INFO 34008 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-10 14:56:35.149  INFO 34008 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-10 14:56:35.316  WARN 34008 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-10 14:56:35.483  INFO 34008 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-10 14:56:35.496  INFO 34008 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8881 (http) with context path ''
+2022-08-10 14:56:35.504  INFO 34008 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 1.064 seconds (JVM running for 14.777)
+?[1;31m
+Start test 64?[0m
+2022-08-10 14:56:35.514  INFO 34008 --- [nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 14:56:35.514  INFO 34008 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 14:56:35.516  INFO 34008 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select tbl.next_val from recipe_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update recipe_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: insert into recipe (category, date, description, recipe_name, user_id, recipe_id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: select tbl.next_val from ingredient_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update ingredient_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_0_, recipeingr0_.recipe_id as recipe_i2_2_0_, recipeingr0_.ingredient as ingredie3_2_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.ingredient_id=? and recipeingr0_.recipe_id=?
+Hibernate: insert into recipe_ingredient (ingredient, ingredient_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: select tbl.next_val from direction_id_generator tbl where tbl.sequence_name=? for update
+Hibernate: update direction_id_generator set next_val=?  where next_val=? and sequence_name=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+Hibernate: select recipedire0_.direction_id as directio1_1_0_, recipedire0_.recipe_id as recipe_i2_1_0_, recipedire0_.direction as directio3_1_0_ from recipe_direction recipedire0_ where recipedire0_.direction_id=? and recipedire0_.recipe_id=?
+Hibernate: insert into recipe_direction (direction, direction_id, recipe_id) values (?, ?, ?)
+?[1;31m
+Start test 65?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipeingr0_.ingredient_id as ingredie1_2_, recipeingr0_.recipe_id as recipe_i2_2_, recipeingr0_.ingredient as ingredie3_2_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction_id as directio1_1_, recipedire0_.recipe_id as recipe_i2_1_, recipedire0_.direction as directio3_1_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 66?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.recipe_name as recipe_n5_0_, recipe0_.user_id as user_id6_0_ from recipe recipe0_ where recipe0_.category=? order by recipe0_.date
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+?[1;31m
+Start test 67?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.recipe_name as recipe_n5_0_, recipe0_.user_id as user_id6_0_ from recipe recipe0_ where recipe0_.recipe_name like ? order by recipe0_.date
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+Hibernate: select recipeingr0_.ingredient as col_0_0_ from recipe_ingredient recipeingr0_ where recipeingr0_.recipe_id=?
+Hibernate: select recipedire0_.direction as col_0_0_ from recipe_direction recipedire0_ where recipedire0_.recipe_id=?
+?[1;31m
+Start test 68?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 69?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.recipe_id as recipe_i1_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.recipe_name as recipe_n5_0_0_, recipe0_.user_id as user_id6_0_0_ from recipe recipe0_ where recipe0_.recipe_id=?
+?[1;31m
+Start test 70?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 71?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 72?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 73?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 74?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 75?[0m
+Hibernate: select user0_.user_id as user_id1_3_, user0_.email as email2_3_, user0_.password as password3_3_, user0_.role as role4_3_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 76?[0m
+?[1;31m
+Start test 77?[0m
+?[1;31m
+Start test 78?[0m
+?[1;31m
+Start test 79?[0m
+?[1;31m
+Start test 80?[0m
+?[1;31m
+Start test 81?[0m
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at Aug 10, 2022, 2:56:36 PM</p>
+</div>
+</div>
+</body>
+</html>
